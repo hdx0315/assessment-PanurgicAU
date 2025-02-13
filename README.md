@@ -1,10 +1,39 @@
-# assessment-PanurgicAU ![Static Badge](https://img.shields.io/badge/HirushaDinujaya-hdx0315-%236fffe9?logo=hexo&logoColor=%236fffe9&labelColor=%23000)
+# Assessment-PanurgicAU ![Static Badge](https://img.shields.io/badge/HirushaDinujaya-hdx0315-%236fffe9?logo=hexo&logoColor=%236fffe9&labelColor=%23000)
 
+## Main Functionalities
 
-This repository contains the **Assessment PanurgicAU** project, which is divided into two main parts.
+- User SignUp
+- User SignIn
+  
+- View Booked/Available Time Slots
+- View Previous Bookings of an User
+- Add Booking
+- Delete Booking
+  
+- Admin Login
+- Admin Dashboard
+- Admin View of All Appoiintments
 
-1. **Backend**: Located in the `appointment-backend` directory.
-2. **Frontend**: Located in the `appointment-frontend` directory.
+  
+## Product Screenshots
+
+### User Login Screen
+![Screenshot 1.](https://github.com/hdx0315/assessment-PanurgicAU/blob/main/Assets/ss1.png)
+
+### Home Screen (View available time-slots for a day)
+![Screenshot 2.](https://github.com/hdx0315/assessment-PanurgicAU/blob/main/Assets/ss2.png)
+
+### Add Booking screen
+![Screenshot 3.](https://github.com/hdx0315/assessment-PanurgicAU/blob/main/Assets/ss3.png)
+
+### My Appointments Screen
+![Screenshot 4.](https://github.com/hdx0315/assessment-PanurgicAU/blob/main/Assets/ss4.png)
+
+### Admin Dashboard
+![Screenshot 5.](https://github.com/hdx0315/assessment-PanurgicAU/blob/main/Assets/ss5.png)
+
+### Mobile View of Add Booking
+![Screenshot 6.](https://github.com/hdx0315/assessment-PanurgicAU/blob/main/Assets/ss6.png)
 
 ## Project Structure
 
@@ -57,14 +86,15 @@ To set up and run the project locally, follow the instructions for both the back
    - Create a `.env` file in the `appointment-backend` directory.
    - Add the following environment variables .
 
-    - DB_NAME=appointment_system
-    - DB_USER=your_username
-    - DB_PASSWORD=your_password
-    - DB_HOST=localhost
-    - JWT_SECRET=jwt_secret
+```
+   DB_NAME=appointment_system
+   DB_USER=your_username
+   DB_PASSWORD=your_password
+   DB_HOST=localhost
+   JWT_SECRET=jwt_secret
+```
 
-
-4. **Start the Backend Server**:
+5. **Start the Backend Server**:
 
    ```bash
    npm start
